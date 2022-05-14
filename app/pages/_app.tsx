@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
   AppProps,
   ErrorBoundary,
@@ -7,6 +9,7 @@ import {
   ErrorFallbackProps,
   useQueryErrorResetBoundary,
 } from "blitz"
+import { ReactQueryDevtools } from "react-query/devtools"
 import LoginForm from "app/auth/components/LoginForm"
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -17,6 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       FallbackComponent={RootErrorFallback}
       onReset={useQueryErrorResetBoundary().reset}
     >
+      <ReactQueryDevtools />
       {getLayout(<Component {...pageProps} />)}
     </ErrorBoundary>
   )

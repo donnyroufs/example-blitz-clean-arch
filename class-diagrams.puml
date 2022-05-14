@@ -1,0 +1,68 @@
+@startuml
+!theme materia-outline
+
+
+
+namespace guestbook.common {
+
+interface IEntity {
+    id: string
+}
+
+class AggregateRoot implements IEntity {
+  +addEvent(event: IDomainEvent): void
+  +getEvents(): IDomainEvent[]
+}
+
+interface IUseCase<TInput, TOutput> {
+    execute(input: TInput): Promise<TOutput>
+}
+
+interface IDomainEvent {}
+}
+
+namespace guestbook.domain {
+class Guestbook extends guestbook.common.AggregateRoot {
+    +entries: GuestbookEntry[] {readonly}
+    +addEntry(entry: GuestbookEntry): void
+}
+
+class GuestbookEntry implements guestbook.common.IEntity {
+    +email: Email {readonly}
+    +content: EntryContent {readonly}
+}
+
+interface IGuestbookRepository {
+    save(guestbook: Guestbook): Maybe<Guestbook>
+    get(guestbookId: GuestbookId): Maybe<Guestbook>
+}
+}
+
+
+
+
+namespace guestbook.application  {
+
+interface ICreateGuestbookEntryRequest {
+    email: string
+    content: string
+}
+
+
+class CreateGuestbookEntryResponse {
+    id: string
+    email: string
+    content: string
+    createdAt: Date
+}
+
+class CreateGuestbookEntryUseCase implements guestbook.common.IUseCase {
+    execute(input: ICreateGuestbookEntryRequest): Promise<CreateGuestbookEntryResponse>
+}
+}
+
+guestbook.domain.Guestbook -l-> guestbook.domain.GuestbookEntry
+guestbook.application.CreateGuestbookEntryUseCase --> guestbook.application.ICreateGuestbookEntryRequest
+guestbook.application.CreateGuestbookEntryUseCase --> guestbook.application.CreateGuestbookEntryResponse
+guestbook.application.CreateGuestbookEntryUseCase --> guestbook.application.IGuestbookRepository
+@enduml

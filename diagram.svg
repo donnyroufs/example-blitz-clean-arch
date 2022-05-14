@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="669.7917px" preserveAspectRatio="none" style="width:1793px;height:669px;background:#00000000;" version="1.1" viewBox="0 0 1793 669" width="1793.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f1jzll92stdm5w" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0833333333333335"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.166666666666667" dy="4.166666666666667" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter><linearGradient id="g1jzll92stdm5w0" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#2196F3"/><stop offset="100%" stop-color="#1A78C2"/></linearGradient></defs><g><!--MD5=[c861addf1e9a64116d63f27e860cd770]
+cluster guestbook.common--><g id="cluster_guestbook.common"><path d="M887.5,16.6667 L1143.75,16.6667 A6.25,6.25 0 0 1 1147.9167,20.8333 L1155.2083,68.0013 L1492.7083,68.0013 A4.1667,4.1667 0 0 1 1496.875,72.168 L1496.875,383.3333 A4.1667,4.1667 0 0 1 1492.7083,387.5 L887.5,387.5 A4.1667,4.1667 0 0 1 883.3333,383.3333 L883.3333,20.8333 A4.1667,4.1667 0 0 1 887.5,16.6667 " filter="url(#f1jzll92stdm5w)" style="stroke:#2196F3;stroke-width:2.0833333333333335;fill:none;"/><line style="stroke:#2196F3;stroke-width:2.0833333333333335;fill:none;" x1="883.3333" x2="1155.2083" y1="68.0013" y2="68.0013"/><text fill="#2196F3" font-family="&quot;Verdana&quot;" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="237.5" x="897.9167" y="48.5046">guestbook.common</text></g><!--MD5=[69fab1a437784226d37fdfcbe06db76f]
+cluster guestbook.domain--><g id="cluster_guestbook.domain"><path d="M815.625,412.5 L1059.375,412.5 A6.25,6.25 0 0 1 1063.5417,416.6667 L1070.8333,463.8346 L1777.0833,463.8346 A4.1667,4.1667 0 0 1 1781.25,468.0013 L1781.25,618.75 A4.1667,4.1667 0 0 1 1777.0833,622.9167 L815.625,622.9167 A4.1667,4.1667 0 0 1 811.4583,618.75 L811.4583,416.6667 A4.1667,4.1667 0 0 1 815.625,412.5 " filter="url(#f1jzll92stdm5w)" style="stroke:#2196F3;stroke-width:2.0833333333333335;fill:none;"/><line style="stroke:#2196F3;stroke-width:2.0833333333333335;fill:none;" x1="811.4583" x2="1070.8333" y1="463.8346" y2="463.8346"/><text fill="#2196F3" font-family="&quot;Verdana&quot;" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="225" x="826.0417" y="444.338">guestbook.domain</text></g><!--MD5=[466550a3e17b1198fab12e04bb4eeab2]
+cluster guestbook.application--><g id="cluster_guestbook.application"><path d="M20.8333,193.75 L312.5,193.75 A6.25,6.25 0 0 1 316.6667,197.9167 L323.9583,245.0846 L782.2917,245.0846 A4.1667,4.1667 0 0 1 786.4583,249.2513 L786.4583,653.125 A4.1667,4.1667 0 0 1 782.2917,657.2917 L20.8333,657.2917 A4.1667,4.1667 0 0 1 16.6667,653.125 L16.6667,197.9167 A4.1667,4.1667 0 0 1 20.8333,193.75 " filter="url(#f1jzll92stdm5w)" style="stroke:#2196F3;stroke-width:2.0833333333333335;fill:none;"/><line style="stroke:#2196F3;stroke-width:2.0833333333333335;fill:none;" x1="16.6667" x2="323.9583" y1="245.0846" y2="245.0846"/><text fill="#2196F3" font-family="&quot;Verdana&quot;" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="272.9167" x="31.25" y="225.588">guestbook.application</text></g><!--MD5=[8c928cc90c2b91649bbc491fecea0633]
+class guestbook.common.IEntity--><g id="elem_guestbook.common.IEntity"><rect codeLine="7" filter="url(#f1jzll92stdm5w)" height="95.4264" id="guestbook.common.IEntity" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="88.5417" x="1391.1458" y="81.25"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="88.5417" x="1391.1458" y="81.25"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="88.5417" x="1391.1458" y="121.6715"/><rect codeLine="7" fill="none" height="95.4264" id="guestbook.common.IEntity" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="88.5417" x="1391.1458" y="81.25"/><ellipse cx="1405.7292" cy="103.5441" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M1406.4616,101.1515 L1407.7148,101.1515 C1408.0078,101.1515 1408.138,101.1353 1408.252,101.0701 C1408.431,100.9562 1408.5449,100.7446 1408.5449,100.533 C1408.5449,100.3215 1408.4635,100.1424 1408.2845,100.0122 C1408.1543,99.9308 1408.0566,99.8983 1407.7148,99.8983 L1403.9388,99.8983 C1403.6133,99.8983 1403.5319,99.9146 1403.418,99.9959 C1403.2389,100.1099 1403.125,100.3215 1403.125,100.533 C1403.125,100.7284 1403.2227,100.9074 1403.3854,101.0376 C1403.4993,101.1353 1403.6296,101.1515 1403.9388,101.1515 L1405.2083,101.1515 L1405.2083,105.9367 L1403.9388,105.9367 C1403.6133,105.9367 1403.5319,105.953 1403.418,106.0343 C1403.2389,106.132 1403.125,106.3599 1403.125,106.5715 C1403.125,106.7505 1403.2227,106.9458 1403.3854,107.0597 C1403.4993,107.1574 1403.6458,107.1899 1403.9388,107.1899 L1407.7148,107.1899 C1408.2682,107.1899 1408.5449,106.9784 1408.5449,106.5715 C1408.5449,106.3599 1408.4635,106.1808 1408.2845,106.0506 C1408.1543,105.9692 1408.0566,105.9367 1407.7148,105.9367 L1406.4616,105.9367 L1406.4616,101.1515 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" font-style="italic" lengthAdjust="spacing" textLength="36.4583" x="1429.6875" y="107.5109">IEntity</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1392.1875" x2="1478.6458" y1="125.8382" y2="125.8382"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="1407.8125" y="151.0574">id: string</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1392.1875" x2="1478.6458" y1="168.3431" y2="168.3431"/></g><!--MD5=[73bdfbc0d46c5e7655d68e195b68440d]
+class guestbook.common.AggregateRoot--><g id="elem_guestbook.common.AggregateRoot"><rect codeLine="11" filter="url(#f1jzll92stdm5w)" height="129.598" id="guestbook.common.AggregateRoot" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="269.7917" x="1209.8958" y="241.6667"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="269.7917" x="1209.8958" y="241.6667"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="269.7917" x="1209.8958" y="282.0882"/><rect codeLine="11" fill="none" height="129.598" id="guestbook.common.AggregateRoot" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="269.7917" x="1209.8958" y="241.6667"/><ellipse cx="1285.9375" cy="263.9608" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M1287.8743,260.5754 C1287.1908,260.2498 1286.7513,260.1522 1286.1003,260.1522 C1284.1797,260.1522 1282.6986,261.6659 1282.6986,263.6678 L1282.6986,264.4979 C1282.6986,266.4022 1284.2611,267.7856 1286.377,267.7856 C1287.2721,267.7856 1288.1348,267.5578 1288.6719,267.1509 C1289.1113,266.8579 1289.3392,266.5324 1289.3392,266.2394 C1289.3392,265.9139 1289.0462,265.6209 1288.7207,265.6209 C1288.5579,265.6209 1288.4115,265.686 1288.265,265.8162 C1287.9232,266.1743 1287.9232,266.1743 1287.793,266.2394 C1287.4837,266.4347 1286.9792,266.5324 1286.4095,266.5324 C1284.9121,266.5324 1283.9518,265.7186 1283.9518,264.4653 L1283.9518,263.6678 C1283.9518,262.3494 1284.8796,261.3892 1286.1491,261.3892 C1286.5723,261.3892 1287.028,261.5031 1287.3698,261.6984 C1287.7279,261.8937 1287.8581,262.0565 1287.9232,262.3494 C1287.972,262.6587 1287.9883,262.7401 1288.0859,262.8377 C1288.1836,262.9517 1288.3626,263.0168 1288.5254,263.0168 C1288.737,263.0168 1288.916,262.9191 1289.0462,262.7563 C1289.1276,262.6424 1289.1602,262.5122 1289.1602,262.1867 L1289.1602,261.145 C1289.1602,260.8358 1289.1439,260.7381 1289.0625,260.6242 C1288.9486,260.4289 1288.7533,260.3149 1288.5254,260.3149 C1288.3138,260.3149 1288.1673,260.3963 1288.0046,260.6242 L1287.8743,260.5754 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="1316.1458" y="267.9276">AggregateRoot</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1210.9375" x2="1478.6458" y1="286.2549" y2="286.2549"/><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1210.9375" x2="1478.6458" y1="294.5882" y2="294.5882"/><ellipse cx="1221.3542" cy="306.0465" rx="3.125" ry="3.125" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="1240.1042" y="319.8074">addEvent(event: IDomainEvent): void</text><ellipse cx="1221.3542" cy="340.2181" rx="3.125" ry="3.125" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="1240.1042" y="353.979">getEvents(): IDomainEvent[]</text></g><!--MD5=[24075bbf09f4537d168f0207b028ccfe]
+class guestbook.common.IUseCase--><g id="elem_guestbook.common.IUseCase"><rect codeLine="16" filter="url(#f1jzll92stdm5w)" height="95.4264" id="guestbook.common.IUseCase" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="284.375" x="1070.3125" y="81.25"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="284.375" x="1070.3125" y="81.25"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="284.375" x="1070.3125" y="121.6715"/><rect codeLine="16" fill="none" height="95.4264" id="guestbook.common.IUseCase" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="284.375" x="1070.3125" y="81.25"/><ellipse cx="1107.8646" cy="103.5441" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M1108.597,101.1515 L1109.8503,101.1515 C1110.1432,101.1515 1110.2734,101.1353 1110.3874,101.0701 C1110.5664,100.9562 1110.6803,100.7446 1110.6803,100.533 C1110.6803,100.3215 1110.599,100.1424 1110.4199,100.0122 C1110.2897,99.9308 1110.1921,99.8983 1109.8503,99.8983 L1106.0742,99.8983 C1105.7487,99.8983 1105.6673,99.9146 1105.5534,99.9959 C1105.3743,100.1099 1105.2604,100.3215 1105.2604,100.533 C1105.2604,100.7284 1105.3581,100.9074 1105.5208,101.0376 C1105.6348,101.1353 1105.765,101.1515 1106.0742,101.1515 L1107.3438,101.1515 L1107.3438,105.9367 L1106.0742,105.9367 C1105.7487,105.9367 1105.6673,105.953 1105.5534,106.0343 C1105.3743,106.132 1105.2604,106.3599 1105.2604,106.5715 C1105.2604,106.7505 1105.3581,106.9458 1105.5208,107.0597 C1105.6348,107.1574 1105.7813,107.1899 1106.0742,107.1899 L1109.8503,107.1899 C1110.4036,107.1899 1110.6803,106.9784 1110.6803,106.5715 C1110.6803,106.3599 1110.599,106.1808 1110.4199,106.0506 C1110.2897,105.9692 1110.1921,105.9367 1109.8503,105.9367 L1108.597,105.9367 L1108.597,101.1515 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" font-style="italic" lengthAdjust="spacing" textLength="54.1667" x="1136.9271" y="107.5109">IUseCase</text><rect height="37.4674" style="stroke:#222222;stroke-width:1.0416666666666667;fill:none;stroke-dasharray:2.0,2.0;" width="125" x="1232.8125" y="78.125"/><text fill="#222222" font-family="Verdana" font-size="12.5" font-style="italic" lengthAdjust="spacing" textLength="102.0833" x="1244.2708" y="101.1861">TInput, TOutput</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1071.3542" x2="1353.6458" y1="125.8382" y2="125.8382"/><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1071.3542" x2="1353.6458" y1="134.1715" y2="134.1715"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="251.0417" x="1086.9792" y="159.3908">execute(input: TInput): Promise&lt;TOutput&gt;</text></g><!--MD5=[a85458b0bcde4d6be19c783ef6937860]
+class guestbook.common.IDomainEvent--><g id="elem_guestbook.common.IDomainEvent"><rect codeLine="20" filter="url(#f1jzll92stdm5w)" height="61.2549" id="guestbook.common.IDomainEvent" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="133.3333" x="900" y="98.4375"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="133.3333" x="900" y="98.4375"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="133.3333" x="900" y="138.859"/><rect codeLine="20" fill="none" height="61.2549" id="guestbook.common.IDomainEvent" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="133.3333" x="900" y="98.4375"/><ellipse cx="914.5833" cy="120.7316" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M915.3158,118.339 L916.569,118.339 C916.862,118.339 916.9922,118.3228 917.1061,118.2576 C917.2852,118.1437 917.3991,117.9321 917.3991,117.7205 C917.3991,117.509 917.3177,117.3299 917.1387,117.1997 C917.0085,117.1183 916.9108,117.0858 916.569,117.0858 L912.793,117.0858 C912.4674,117.0858 912.3861,117.1021 912.2721,117.1834 C912.0931,117.2974 911.9792,117.509 911.9792,117.7205 C911.9792,117.9159 912.0768,118.0949 912.2396,118.2251 C912.3535,118.3228 912.4837,118.339 912.793,118.339 L914.0625,118.339 L914.0625,123.1242 L912.793,123.1242 C912.4674,123.1242 912.3861,123.1405 912.2721,123.2218 C912.0931,123.3195 911.9792,123.5474 911.9792,123.759 C911.9792,123.938 912.0768,124.1333 912.2396,124.2472 C912.3535,124.3449 912.5,124.3774 912.793,124.3774 L916.569,124.3774 C917.1224,124.3774 917.3991,124.1659 917.3991,123.759 C917.3991,123.5474 917.3177,123.3683 917.1387,123.2381 C917.0085,123.1567 916.9108,123.1242 916.569,123.1242 L915.3158,123.1242 L915.3158,118.339 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" font-style="italic" lengthAdjust="spacing" textLength="81.25" x="938.5417" y="124.6984">IDomainEvent</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="901.0417" x2="1032.2917" y1="143.0257" y2="143.0257"/><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="901.0417" x2="1032.2917" y1="151.359" y2="151.359"/></g><!--MD5=[0b5a4b9039dbbf1918daa56c476c9ffb]
+class guestbook.domain.Guestbook--><g id="elem_guestbook.domain.Guestbook"><rect codeLine="24" filter="url(#f1jzll92stdm5w)" height="129.598" id="guestbook.domain.Guestbook" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="271.875" x="1208.8542" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="271.875" x="1208.8542" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="271.875" x="1208.8542" y="517.5049"/><rect codeLine="24" fill="none" height="129.598" id="guestbook.domain.Guestbook" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="271.875" x="1208.8542" y="477.0833"/><ellipse cx="1298.4375" cy="499.3774" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M1300.3743,495.992 C1299.6908,495.6665 1299.2513,495.5688 1298.6003,495.5688 C1296.6797,495.5688 1295.1986,497.0825 1295.1986,499.0845 L1295.1986,499.9146 C1295.1986,501.8188 1296.7611,503.2023 1298.877,503.2023 C1299.7721,503.2023 1300.6348,502.9744 1301.1719,502.5675 C1301.6113,502.2746 1301.8392,501.9491 1301.8392,501.6561 C1301.8392,501.3306 1301.5462,501.0376 1301.2207,501.0376 C1301.0579,501.0376 1300.9115,501.1027 1300.765,501.2329 C1300.4232,501.591 1300.4232,501.591 1300.293,501.6561 C1299.9837,501.8514 1299.4792,501.9491 1298.9095,501.9491 C1297.4121,501.9491 1296.4518,501.1353 1296.4518,499.882 L1296.4518,499.0845 C1296.4518,497.7661 1297.3796,496.8058 1298.6491,496.8058 C1299.0723,496.8058 1299.528,496.9198 1299.8698,497.1151 C1300.2279,497.3104 1300.3581,497.4731 1300.4232,497.7661 C1300.472,498.0754 1300.4883,498.1567 1300.5859,498.2544 C1300.6836,498.3683 1300.8626,498.4334 1301.0254,498.4334 C1301.237,498.4334 1301.416,498.3358 1301.5462,498.173 C1301.6276,498.0591 1301.6602,497.9289 1301.6602,497.6034 L1301.6602,496.5617 C1301.6602,496.2524 1301.6439,496.1548 1301.5625,496.0409 C1301.4486,495.8455 1301.2533,495.7316 1301.0254,495.7316 C1300.8138,495.7316 1300.6673,495.813 1300.5046,496.0409 L1300.3743,495.992 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="63.5417" x="1328.6458" y="503.3442">Guestbook</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1209.8958" x2="1479.6875" y1="521.6715" y2="521.6715"/><ellipse cx="1220.3125" cy="533.1299" fill="none" rx="3.125" ry="3.125" style="stroke:#1A78C2;stroke-width:1.0416666666666667;"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="1239.0625" y="546.8908">entries: GuestbookEntry[] {readonly}</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1209.8958" x2="1479.6875" y1="564.1764" y2="564.1764"/><ellipse cx="1220.3125" cy="575.6348" rx="3.125" ry="3.125" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="225" x="1239.0625" y="589.3957">addEntry(entry: GuestbookEntry): void</text></g><!--MD5=[fa011470fd46eab9d30b75ed4a7698a4]
+class guestbook.domain.GuestbookEntry--><g id="elem_guestbook.domain.GuestbookEntry"><rect codeLine="29" filter="url(#f1jzll92stdm5w)" height="129.598" id="guestbook.domain.GuestbookEntry" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="246.875" x="1517.1875" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="246.875" x="1517.1875" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="246.875" x="1517.1875" y="517.5049"/><rect codeLine="29" fill="none" height="129.598" id="guestbook.domain.GuestbookEntry" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="246.875" x="1517.1875" y="477.0833"/><ellipse cx="1579.1667" cy="499.3774" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M1581.1035,495.992 C1580.4199,495.6665 1579.9805,495.5688 1579.3294,495.5688 C1577.4089,495.5688 1575.9277,497.0825 1575.9277,499.0845 L1575.9277,499.9146 C1575.9277,501.8188 1577.4902,503.2023 1579.6061,503.2023 C1580.5013,503.2023 1581.3639,502.9744 1581.901,502.5675 C1582.3405,502.2746 1582.5684,501.9491 1582.5684,501.6561 C1582.5684,501.3306 1582.2754,501.0376 1581.9499,501.0376 C1581.7871,501.0376 1581.6406,501.1027 1581.4941,501.2329 C1581.1523,501.591 1581.1523,501.591 1581.0221,501.6561 C1580.7129,501.8514 1580.2083,501.9491 1579.6387,501.9491 C1578.1413,501.9491 1577.181,501.1353 1577.181,499.882 L1577.181,499.0845 C1577.181,497.7661 1578.1087,496.8058 1579.3783,496.8058 C1579.8014,496.8058 1580.2572,496.9198 1580.599,497.1151 C1580.957,497.3104 1581.0872,497.4731 1581.1523,497.7661 C1581.2012,498.0754 1581.2174,498.1567 1581.3151,498.2544 C1581.4128,498.3683 1581.5918,498.4334 1581.7546,498.4334 C1581.9661,498.4334 1582.1452,498.3358 1582.2754,498.173 C1582.3568,498.0591 1582.3893,497.9289 1582.3893,497.6034 L1582.3893,496.5617 C1582.3893,496.2524 1582.373,496.1548 1582.2917,496.0409 C1582.1777,495.8455 1581.9824,495.7316 1581.7546,495.7316 C1581.543,495.7316 1581.3965,495.813 1581.2337,496.0409 L1581.1035,495.992 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="1609.375" y="503.3442">GuestbookEntry</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1518.2292" x2="1763.0208" y1="521.6715" y2="521.6715"/><ellipse cx="1528.6458" cy="533.1299" fill="none" rx="3.125" ry="3.125" style="stroke:#1A78C2;stroke-width:1.0416666666666667;"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="1547.3958" y="546.8908">email: Email {readonly}</text><ellipse cx="1528.6458" cy="567.3014" fill="none" rx="3.125" ry="3.125" style="stroke:#1A78C2;stroke-width:1.0416666666666667;"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="200" x="1547.3958" y="581.0623">content: EntryContent {readonly}</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="1518.2292" x2="1763.0208" y1="598.348" y2="598.348"/></g><!--MD5=[a539288c859df37bc92efc8847b8864a]
+class guestbook.domain.IGuestbookRepository--><g id="elem_guestbook.domain.IGuestbookRepository"><rect codeLine="34" filter="url(#f1jzll92stdm5w)" height="129.598" id="guestbook.domain.IGuestbookRepository" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="343.75" x="828.125" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="343.75" x="828.125" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="343.75" x="828.125" y="517.5049"/><rect codeLine="34" fill="none" height="129.598" id="guestbook.domain.IGuestbookRepository" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="343.75" x="828.125" y="477.0833"/><ellipse cx="920.8333" cy="499.3774" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M921.5658,496.9849 L922.819,496.9849 C923.112,496.9849 923.2422,496.9686 923.3561,496.9035 C923.5352,496.7896 923.6491,496.578 923.6491,496.3664 C923.6491,496.1548 923.5677,495.9757 923.3887,495.8455 C923.2585,495.7642 923.1608,495.7316 922.819,495.7316 L919.043,495.7316 C918.7174,495.7316 918.6361,495.7479 918.5221,495.8293 C918.3431,495.9432 918.2292,496.1548 918.2292,496.3664 C918.2292,496.5617 918.3268,496.7407 918.4896,496.8709 C918.6035,496.9686 918.7337,496.9849 919.043,496.9849 L920.3125,496.9849 L920.3125,501.77 L919.043,501.77 C918.7174,501.77 918.6361,501.7863 918.5221,501.8677 C918.3431,501.9653 918.2292,502.1932 918.2292,502.4048 C918.2292,502.5838 918.3268,502.7791 918.4896,502.8931 C918.6035,502.9907 918.75,503.0233 919.043,503.0233 L922.819,503.0233 C923.3724,503.0233 923.6491,502.8117 923.6491,502.4048 C923.6491,502.1932 923.5677,502.0142 923.3887,501.884 C923.2585,501.8026 923.1608,501.77 922.819,501.77 L921.5658,501.77 L921.5658,496.9849 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" font-style="italic" lengthAdjust="spacing" textLength="129.1667" x="951.0417" y="503.3442">IGuestbookRepository</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="829.1667" x2="1170.8333" y1="521.6715" y2="521.6715"/><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="829.1667" x2="1170.8333" y1="530.0049" y2="530.0049"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="298.9583" x="844.7917" y="555.2241">save(guestbook: Guestbook): Maybe&lt;Guestbook&gt;</text><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="310.4167" x="844.7917" y="589.3957">get(guestbookId: GuestbookId): Maybe&lt;Guestbook&gt;</text></g><!--MD5=[8d926e85204d9681ab5d91cd6edb84bb]
+class guestbook.application.ICreateGuestbookEntryRequest--><g id="elem_guestbook.application.ICreateGuestbookEntryRequest"><rect codeLine="45" filter="url(#f1jzll92stdm5w)" height="129.598" id="guestbook.application.ICreateGuestbookEntryRequest" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="236.4583" x="33.8542" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="236.4583" x="33.8542" y="477.0833"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="236.4583" x="33.8542" y="517.5049"/><rect codeLine="45" fill="none" height="129.598" id="guestbook.application.ICreateGuestbookEntryRequest" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="236.4583" x="33.8542" y="477.0833"/><ellipse cx="48.4375" cy="499.3774" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M49.1699,496.9849 L50.4232,496.9849 C50.7161,496.9849 50.8464,496.9686 50.9603,496.9035 C51.1393,496.7896 51.2533,496.578 51.2533,496.3664 C51.2533,496.1548 51.1719,495.9757 50.9928,495.8455 C50.8626,495.7642 50.765,495.7316 50.4232,495.7316 L46.6471,495.7316 C46.3216,495.7316 46.2402,495.7479 46.1263,495.8293 C45.9473,495.9432 45.8333,496.1548 45.8333,496.3664 C45.8333,496.5617 45.931,496.7407 46.0938,496.8709 C46.2077,496.9686 46.3379,496.9849 46.6471,496.9849 L47.9167,496.9849 L47.9167,501.77 L46.6471,501.77 C46.3216,501.77 46.2402,501.7863 46.1263,501.8677 C45.9473,501.9653 45.8333,502.1932 45.8333,502.4048 C45.8333,502.5838 45.931,502.7791 46.0938,502.8931 C46.2077,502.9907 46.3542,503.0233 46.6471,503.0233 L50.4232,503.0233 C50.9766,503.0233 51.2533,502.8117 51.2533,502.4048 C51.2533,502.1932 51.1719,502.0142 50.9928,501.884 C50.8626,501.8026 50.765,501.77 50.4232,501.77 L49.1699,501.77 L49.1699,496.9849 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" font-style="italic" lengthAdjust="spacing" textLength="184.375" x="72.3958" y="503.3442">ICreateGuestbookEntryRequest</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="34.8958" x2="269.2708" y1="521.6715" y2="521.6715"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="72.9167" x="50.5208" y="546.8908">email: string</text><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="50.5208" y="581.0623">content: string</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="34.8958" x2="269.2708" y1="598.348" y2="598.348"/></g><!--MD5=[9790298a0d8905adcccc37f8cbab3b56]
+class guestbook.application.CreateGuestbookEntryResponse--><g id="elem_guestbook.application.CreateGuestbookEntryResponse"><rect codeLine="51" filter="url(#f1jzll92stdm5w)" height="197.9411" id="guestbook.application.CreateGuestbookEntryResponse" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="244.7917" x="306.7708" y="442.7083"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="244.7917" x="306.7708" y="442.7083"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="244.7917" x="306.7708" y="483.1299"/><rect codeLine="51" fill="none" height="197.9411" id="guestbook.application.CreateGuestbookEntryResponse" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="244.7917" x="306.7708" y="442.7083"/><ellipse cx="321.3542" cy="465.0024" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M323.291,461.617 C322.6074,461.2915 322.168,461.1938 321.5169,461.1938 C319.5964,461.1938 318.1152,462.7075 318.1152,464.7095 L318.1152,465.5396 C318.1152,467.4438 319.6777,468.8273 321.7936,468.8273 C322.6888,468.8273 323.5514,468.5994 324.0885,468.1925 C324.528,467.8996 324.7559,467.5741 324.7559,467.2811 C324.7559,466.9556 324.4629,466.6626 324.1374,466.6626 C323.9746,466.6626 323.8281,466.7277 323.6816,466.8579 C323.3398,467.216 323.3398,467.216 323.2096,467.2811 C322.9004,467.4764 322.3958,467.5741 321.8262,467.5741 C320.3288,467.5741 319.3685,466.7603 319.3685,465.507 L319.3685,464.7095 C319.3685,463.3911 320.2962,462.4308 321.5658,462.4308 C321.9889,462.4308 322.4447,462.5448 322.7865,462.7401 C323.1445,462.9354 323.2747,463.0981 323.3398,463.3911 C323.3887,463.7004 323.4049,463.7817 323.5026,463.8794 C323.6003,463.9933 323.7793,464.0584 323.9421,464.0584 C324.1536,464.0584 324.3327,463.9608 324.4629,463.798 C324.5443,463.6841 324.5768,463.5539 324.5768,463.2284 L324.5768,462.1867 C324.5768,461.8774 324.5605,461.7798 324.4792,461.6659 C324.3652,461.4705 324.1699,461.3566 323.9421,461.3566 C323.7305,461.3566 323.584,461.438 323.4212,461.6659 L323.291,461.617 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="345.3125" y="468.9692">CreateGuestbookEntryResponse</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="307.8125" x2="550.5208" y1="487.2965" y2="487.2965"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="323.4375" y="512.5158">id: string</text><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="72.9167" x="323.4375" y="546.6873">email: string</text><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="323.4375" y="580.8589">content: string</text><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="94.7917" x="323.4375" y="615.0304">createdAt: Date</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="307.8125" x2="550.5208" y1="632.3161" y2="632.3161"/></g><!--MD5=[c63dba012a926d86c3913a3f7369114b]
+class guestbook.application.CreateGuestbookEntryUseCase--><g id="elem_guestbook.application.CreateGuestbookEntryUseCase"><rect codeLine="58" filter="url(#f1jzll92stdm5w)" height="95.4264" id="guestbook.application.CreateGuestbookEntryUseCase" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="580.2083" x="164.0625" y="258.3333"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="580.2083" x="164.0625" y="258.3333"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="580.2083" x="164.0625" y="298.7549"/><rect codeLine="58" fill="none" height="95.4264" id="guestbook.application.CreateGuestbookEntryUseCase" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="580.2083" x="164.0625" y="258.3333"/><ellipse cx="345.8333" cy="280.6274" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M347.7702,277.242 C347.0866,276.9165 346.6471,276.8188 345.9961,276.8188 C344.0755,276.8188 342.5944,278.3325 342.5944,280.3345 L342.5944,281.1646 C342.5944,283.0688 344.1569,284.4523 346.2728,284.4523 C347.168,284.4523 348.0306,284.2244 348.5677,283.8175 C349.0072,283.5246 349.235,283.1991 349.235,282.9061 C349.235,282.5806 348.9421,282.2876 348.6165,282.2876 C348.4538,282.2876 348.3073,282.3527 348.1608,282.4829 C347.819,282.841 347.819,282.841 347.6888,282.9061 C347.3796,283.1014 346.875,283.1991 346.3053,283.1991 C344.8079,283.1991 343.8477,282.3853 343.8477,281.132 L343.8477,280.3345 C343.8477,279.0161 344.7754,278.0558 346.0449,278.0558 C346.4681,278.0558 346.9238,278.1698 347.2656,278.3651 C347.6237,278.5604 347.7539,278.7231 347.819,279.0161 C347.8678,279.3254 347.8841,279.4067 347.9818,279.5044 C348.0794,279.6183 348.2585,279.6834 348.4212,279.6834 C348.6328,279.6834 348.8118,279.5858 348.9421,279.423 C349.0234,279.3091 349.056,279.1789 349.056,278.8534 L349.056,277.8117 C349.056,277.5024 349.0397,277.4048 348.9583,277.2909 C348.8444,277.0955 348.6491,276.9816 348.4212,276.9816 C348.2096,276.9816 348.0632,277.063 347.9004,277.2909 L347.7702,277.242 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="187.5" x="376.0417" y="284.5942">CreateGuestbookEntryUseCase</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="165.1042" x2="743.2292" y1="302.9215" y2="302.9215"/><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="165.1042" x2="743.2292" y1="311.2549" y2="311.2549"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="546.875" x="180.7292" y="336.4741">execute(input: ICreateGuestbookEntryRequest): Promise&lt;CreateGuestbookEntryResponse&gt;</text></g><!--MD5=[d6f73e10f58cb07bc1615bac163e7d05]
+class guestbook.application.IGuestbookRepository--><g id="elem_guestbook.application.IGuestbookRepository"><rect filter="url(#f1jzll92stdm5w)" height="61.2549" id="guestbook.application.IGuestbookRepository" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;fill:none;" width="181.25" x="588.5417" y="510.9375"/><rect fill="url(#g1jzll92stdm5w0)" height="44.5882" rx="4.1667" ry="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="181.25" x="588.5417" y="510.9375"/><rect fill="url(#g1jzll92stdm5w0)" height="4.1667" style="stroke:url(#g1jzll92stdm5w0);stroke-width:1.0416666666666667;" width="181.25" x="588.5417" y="551.359"/><rect fill="none" height="61.2549" id="guestbook.application.IGuestbookRepository" rx="4.1667" ry="4.1667" style="stroke:#2196F3;stroke-width:1.0416666666666667;" width="181.25" x="588.5417" y="510.9375"/><ellipse cx="603.125" cy="533.2316" rx="10.4167" ry="10.4167" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;"/><path d="M605.0618,529.8462 C604.3783,529.5207 603.9388,529.423 603.2878,529.423 C601.3672,529.423 599.8861,530.9367 599.8861,532.9386 L599.8861,533.7687 C599.8861,535.673 601.4486,537.0565 603.5645,537.0565 C604.4596,537.0565 605.3223,536.8286 605.8594,536.4217 C606.2988,536.1287 606.5267,535.8032 606.5267,535.5103 C606.5267,535.1847 606.2337,534.8918 605.9082,534.8918 C605.7454,534.8918 605.599,534.9569 605.4525,535.0871 C605.1107,535.4451 605.1107,535.4451 604.9805,535.5103 C604.6712,535.7056 604.1667,535.8032 603.597,535.8032 C602.0996,535.8032 601.1393,534.9894 601.1393,533.7362 L601.1393,532.9386 C601.1393,531.6203 602.0671,530.66 603.3366,530.66 C603.7598,530.66 604.2155,530.7739 604.5573,530.9692 C604.9154,531.1646 605.0456,531.3273 605.1107,531.6203 C605.1595,531.9295 605.1758,532.0109 605.2734,532.1086 C605.3711,532.2225 605.5501,532.2876 605.7129,532.2876 C605.9245,532.2876 606.1035,532.1899 606.2337,532.0272 C606.3151,531.9132 606.3477,531.783 606.3477,531.4575 L606.3477,530.4159 C606.3477,530.1066 606.3314,530.009 606.25,529.895 C606.1361,529.6997 605.9408,529.5858 605.7129,529.5858 C605.5013,529.5858 605.3548,529.6672 605.1921,529.895 L605.0618,529.8462 Z " fill="#2196F3"/><text fill="#222222" font-family="&quot;Verdana&quot;" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="627.0833" y="537.1984">IGuestbookRepository</text><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="589.5833" x2="768.75" y1="555.5257" y2="555.5257"/><line style="stroke:#2196F3;stroke-width:1.0416666666666667;" x1="589.5833" x2="768.75" y1="563.859" y2="563.859"/></g><!--MD5=[48a4dcb363d20436bddb3c3e972a4456]
+reverse link guestbook.common.IEntity to guestbook.common.AggregateRoot--><g id="link_guestbook.common.IEntity_guestbook.common.AggregateRoot"><path d="M1401.3542,195.9802 C1393.6563,210.85 1385.4896,226.6135 1377.8333,241.401 " fill="none" id="guestbook.common.IEntity-backto-guestbook.common.AggregateRoot" style="stroke:#2196F3;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1395.0729,192.2521,1411.1354,177.1052,1408.0208,198.9583,1395.0729,192.2521" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[afa421e32be25e9dcc5d806376ce4df6]
+reverse link guestbook.common.AggregateRoot to guestbook.domain.Guestbook--><g id="link_guestbook.common.AggregateRoot_guestbook.domain.Guestbook"><path d="M1344.7917,392.2896 C1344.7917,420.2542 1344.7917,450.8438 1344.7917,476.9427 " fill="none" id="guestbook.common.AggregateRoot-backto-guestbook.domain.Guestbook" style="stroke:#2196F3;stroke-width:3.125;"/><polygon fill="none" points="1337.5,391.8844,1344.7917,371.051,1352.0833,391.8844,1337.5,391.8844" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[e3ae99aa7f0c72a3ac4cded5484052c3]
+reverse link guestbook.common.IEntity to guestbook.domain.GuestbookEntry--><g id="link_guestbook.common.IEntity_guestbook.domain.GuestbookEntry"><path d="M1494.0938,180.3156 C1495.4271,181.9969 1496.7083,183.6979 1497.9167,185.4167 C1562.5938,277.0406 1604.0104,402.2156 1624.7292,476.8969 " fill="none" id="guestbook.common.IEntity-backto-guestbook.domain.GuestbookEntry" style="stroke:#2196F3;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1488.4375,184.9365,1479.7813,164.6365,1499.2083,175.1021,1488.4375,184.9365" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[7a82a2de78d45787a9b00f6206d7d60e]
+reverse link guestbook.common.IUseCase to guestbook.application.CreateGuestbookEntryUseCase--><g id="link_guestbook.common.IUseCase_guestbook.application.CreateGuestbookEntryUseCase"><path d="M1049.3125,176.6979 C973.825,187.0448 951.099,174.4167 883.3333,185.4167 C784.2604,201.499 675.3698,232.051 592.0625,258.275 " fill="none" id="guestbook.common.IUseCase-backto-guestbook.application.CreateGuestbookEntryUseCase" style="stroke:#2196F3;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1048.5833,169.4323,1070.2917,173.4427,1050.8229,183.8427,1048.5833,169.4323" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[c0e36da78049549f79cac1796a345882]
+reverse link guestbook.domain.GuestbookEntry to guestbook.domain.Guestbook--><g id="link_guestbook.domain.GuestbookEntry_guestbook.domain.Guestbook"><path codeLine="63" d="M1511.6875,541.6667 C1501.4167,541.6667 1491.1354,541.6667 1480.8646,541.6667 " fill="none" id="guestbook.domain.GuestbookEntry-backto-guestbook.domain.Guestbook" style="stroke:#2196F3;stroke-width:3.125;"/><polygon fill="#2196F3" points="1517.0625,541.6667,1507.6875,537.5,1511.8542,541.6667,1507.6875,545.8333,1517.0625,541.6667" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[be67e64eb83e5d1aaad260662c87eec8]
+link guestbook.application.CreateGuestbookEntryUseCase to guestbook.application.ICreateGuestbookEntryRequest--><g id="link_guestbook.application.CreateGuestbookEntryUseCase_guestbook.application.ICreateGuestbookEntryRequest"><path codeLine="64" d="M364.2115,354.3042 C338.876,369.0177 311.8802,386.1542 288.5417,404.1667 C262.0906,424.5823 235.5385,449.801 212.9792,472.9823 " fill="none" id="guestbook.application.CreateGuestbookEntryUseCase-to-guestbook.application.ICreateGuestbookEntryRequest" style="stroke:#2196F3;stroke-width:3.125;"/><polygon fill="#2196F3" points="209.1052,476.9833,218.6198,473.1462,212.728,473.2414,212.6328,467.3496,209.1052,476.9833" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[15b6b0ec4a79348cbe0c4d5c4c621bd9]
+link guestbook.application.CreateGuestbookEntryUseCase to guestbook.application.CreateGuestbookEntryResponse--><g id="link_guestbook.application.CreateGuestbookEntryUseCase_guestbook.application.CreateGuestbookEntryResponse"><path codeLine="65" d="M449.1375,354.2292 C446.574,378.1583 443.3479,408.2688 440.2406,437.2688 " fill="none" id="guestbook.application.CreateGuestbookEntryUseCase-to-guestbook.application.CreateGuestbookEntryResponse" style="stroke:#2196F3;stroke-width:3.125;"/><polygon fill="#2196F3" points="439.6625,442.6688,444.8046,433.7912,440.2176,437.4901,436.5187,432.9031,439.6625,442.6688" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[31ce41ae6471e66ed0167cabedee343f]
+link guestbook.application.CreateGuestbookEntryUseCase to guestbook.application.IGuestbookRepository--><g id="link_guestbook.application.CreateGuestbookEntryUseCase_guestbook.application.IGuestbookRepository"><path codeLine="66" d="M514.6813,354.176 C533.0552,369.4031 552.85,386.8531 569.7917,404.1667 C601.5375,436.6094 633.5063,477.6979 654.6115,506.2698 " fill="none" id="guestbook.application.CreateGuestbookEntryUseCase-to-guestbook.application.IGuestbookRepository" style="stroke:#2196F3;stroke-width:3.125;"/><polygon fill="#2196F3" points="657.9042,510.7448,655.7046,500.7241,654.8176,506.5495,648.9922,505.6626,657.9042,510.7448" style="stroke:#2196F3;stroke-width:3.125;"/></g><!--MD5=[359bfcba0f6dc6fb5a7dfb0bb0d797c0]
+@startuml
+!theme materia-outline
+
+
+
+namespace guestbook.common {
+
+interface IEntity {
+    id: string
+}
+
+class AggregateRoot implements IEntity {
+  +addEvent(event: IDomainEvent): void
+  +getEvents(): IDomainEvent[]
+}
+
+interface IUseCase<TInput, TOutput> {
+    execute(input: TInput): Promise<TOutput>
+}
+
+interface IDomainEvent {}
+}
+
+namespace guestbook.domain {
+class Guestbook extends guestbook.common.AggregateRoot {
+    +entries: GuestbookEntry[] {readonly}
+    +addEntry(entry: GuestbookEntry): void
+}
+
+class GuestbookEntry implements guestbook.common.IEntity {
+    +email: Email {readonly}
+    +content: EntryContent {readonly}
+}
+
+interface IGuestbookRepository {
+    save(guestbook: Guestbook): Maybe<Guestbook>
+    get(guestbookId: GuestbookId): Maybe<Guestbook>
+}
+}
+
+
+
+
+namespace guestbook.application  {
+
+interface ICreateGuestbookEntryRequest {
+    email: string
+    content: string
+}
+
+
+class CreateGuestbookEntryResponse {
+    id: string
+    email: string
+    content: string
+    createdAt: Date
+}
+
+class CreateGuestbookEntryUseCase implements guestbook.common.IUseCase {
+    execute(input: ICreateGuestbookEntryRequest): Promise<CreateGuestbookEntryResponse>
+}
+}
+
+guestbook.domain.Guestbook -l-> guestbook.domain.GuestbookEntry
+guestbook.application.CreateGuestbookEntryUseCase - -> guestbook.application.ICreateGuestbookEntryRequest
+guestbook.application.CreateGuestbookEntryUseCase - -> guestbook.application.CreateGuestbookEntryResponse
+guestbook.application.CreateGuestbookEntryUseCase - -> guestbook.application.IGuestbookRepository
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #2196F3
+    HyperLinkColor #fd7e14
+    LineColor #1a78c2
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor transparent
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #fff
+    FontColor #9C27B0
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #222
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #222
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  transparent
+	FontColor #2196F3
+	BorderColor #fff
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent    
+		LineColor #2196F3
+		LineThickness 1.0
+		FontColor #1a78c2
+	}
+	server {
+			FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	}
+	arrow {
+		FontColor #1a78c2
+		LineColor #1a78c2
+	}
+	group {
+		BackGroundColor #fff
+		LineColor $LIGHT_DARK
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+		LineColor #2196F3
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #9C27B0
+		LineColor #7D1F8D
+		BackGroundColor transparent
+	}
+	separator {
+		LineColor #cccccc
+		BackGroundColor transparent
+		FontColor #cccccc
+	}
+	milestone {
+		FontColor #9C27B0
+		FontSize 16
+		FontStyle italic
+		BackGroundColor #fff
+		LineColor #cccccc
+	}
+	timeline {
+		BackgroundColor #fff
+		FontColor #cccccc
+	}
+	closed {
+		BackgroundColor #CC7A00
+		FontColor #ff9800
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             true
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               10 
+skinparam TitleFontColor	    #222
+skinparam TitleFontSize	    	20
+skinparam TitleBorderThickness 	0
+skinparam ArrowColor            #666
+skinparam stereotype {
+    CBackgroundColor #fff
+    CBorderColor #cccccc
+    ABackgroundColor #70bf73
+    ABorderColor #3D8C40
+    IBackgroundColor #B7161C
+    IBorderColor $DANGER_DARK
+    EBackgroundColor #ffad33
+    EBorderColor #CC7A00
+    NBackgroundColor #b052c0
+    NBorderColor #7D1F8D
+}
+skinparam title {
+	FontColor	                 #2196F3
+	BorderColor	                 #cccccc
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #cccccc
+	FontColor #222
+}
+
+skinparam swimlane {
+	BorderColor #9C27B0
+	BorderThickness 2
+	TitleBackgroundColor  #fff-#fff
+	TitleFontColor #2196F3
+}
+
+
+skinparam activity {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	BarColor #4CAF50
+	StartColor #9C27B0
+	EndColor #9C27B0
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #cccccc
+	DiamondFontColor #cccccc
+}
+
+
+skinparam participant {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2196F3
+	FontColor #222
+}
+
+
+skinparam sequence {
+	BorderColor #2196F3
+	TitleFontColor #2196F3
+	BackgroundColor transparent
+	StartColor #2196F3
+	EndColor #2196F3
+	BoxBackgroundColor transparent
+	BoxBorderColor #666
+	BoxFontColor #222
+	DelayFontColor #222
+	LifeLineBorderColor #cccccc
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #666
+	GroupFontColor #222
+	GroupHeaderFontColor #9C27B0
+	DividerBackgroundColor transparent
+    DividerBorderColor #666
+    DividerBorderThickness 2
+    DividerFontColor #222
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #666
+	ReferenceFontColor #222
+	ReferenceHeaderFontColor #9C27B0
+	StereotypeFontColor #2196F3
+}
+
+
+skinparam partition {
+	BorderColor #2196F3
+	FontColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam entity {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam boundary {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #999999
+	FontColor #333333
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #9C27B0
+	FontColor #9C27B0
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #666
+	FontColor #666
+}
+
+
+skinparam component {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #e51c23
+	FontColor #222
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #ff9800
+	FontColor #ff9800
+}
+
+
+skinparam node {
+	BackgroundColor transparent
+	BorderColor #222
+	FontColor #222
+}
+
+
+skinparam cloud {
+	BackgroundColor #F2FCFE-#eeeeee
+	BorderColor #F2FCFE
+	FontColor #222
+}
+
+
+skinparam database {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam class {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	FontColor #fff
+	HeaderBackgroundColor #2196F3-#1a78c2
+	StereotypeFontColor #222
+	BorderThickness 1
+	AttributeFontColor #222
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	StereotypeFontColor #222
+	BorderThickness 1
+	AttributeFontColor #cccccc
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2196F3
+}
+
+
+skinparam rectangle {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2196F3
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2196F3
+	FontColor #2196F3
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #ff9800
+	FontColor #ff9800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9C27B0
+	FontColor #9C27B0
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+	StartColor #9C27B0
+	EndColor #9C27B0
+	AttributeFontColor #cccccc
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9C27B0
+	FontColor #9C27B0
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #666
+	FontColor #666
+
+}
+
+
+skinparam stack {
+		FontColor #2196F3
+	BorderColor #2196F3
+	BackgroundColor transparent
+}
+
+
+
+namespace guestbook.common {
+
+interface IEntity {
+    id: string
+}
+
+class AggregateRoot implements IEntity {
+  +addEvent(event: IDomainEvent): void
+  +getEvents(): IDomainEvent[]
+}
+
+interface IUseCase<TInput, TOutput> {
+    execute(input: TInput): Promise<TOutput>
+}
+
+interface IDomainEvent {}
+}
+
+namespace guestbook.domain {
+class Guestbook extends guestbook.common.AggregateRoot {
+    +entries: GuestbookEntry[] {readonly}
+    +addEntry(entry: GuestbookEntry): void
+}
+
+class GuestbookEntry implements guestbook.common.IEntity {
+    +email: Email {readonly}
+    +content: EntryContent {readonly}
+}
+
+interface IGuestbookRepository {
+    save(guestbook: Guestbook): Maybe<Guestbook>
+    get(guestbookId: GuestbookId): Maybe<Guestbook>
+}
+}
+
+
+
+
+namespace guestbook.application  {
+
+interface ICreateGuestbookEntryRequest {
+    email: string
+    content: string
+}
+
+
+class CreateGuestbookEntryResponse {
+    id: string
+    email: string
+    content: string
+    createdAt: Date
+}
+
+class CreateGuestbookEntryUseCase implements guestbook.common.IUseCase {
+    execute(input: ICreateGuestbookEntryRequest): Promise<CreateGuestbookEntryResponse>
+}
+}
+
+guestbook.domain.Guestbook -l-> guestbook.domain.GuestbookEntry
+guestbook.application.CreateGuestbookEntryUseCase - -> guestbook.application.ICreateGuestbookEntryRequest
+guestbook.application.CreateGuestbookEntryUseCase - -> guestbook.application.CreateGuestbookEntryResponse
+guestbook.application.CreateGuestbookEntryUseCase - -> guestbook.application.IGuestbookRepository
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

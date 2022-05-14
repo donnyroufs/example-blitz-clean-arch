@@ -267,6 +267,7 @@ const Home: BlitzPage = () => {
 }
 
 Home.suppressFirstRenderFlicker = true
+// @ts-ignore
 Home.getLayout = (page) => <Layout title="Home">{page}</Layout>
 
 export default Home
