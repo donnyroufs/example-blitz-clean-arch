@@ -1,3 +1,5 @@
+import { UniqueId } from "./UniqueId"
+
 export interface IEntity {
-  id: string
+  id: UniqueId
 }

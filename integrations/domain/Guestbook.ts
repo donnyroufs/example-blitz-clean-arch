@@ -1,3 +1,5 @@
+import { UniqueId } from "integrations/common/UniqueId"
+
 import { AggregateRoot } from "../common"
 
 import { DuplicateEntryException } from "./DuplicateEntryException"
@@ -8,9 +10,9 @@ import { GuestbookEntryAddedEvent } from "./GuestbookEntryAddedEvent"
 export class Guestbook extends AggregateRoot {
   public readonly entries: GuestbookEntry[] = []
 
-  public constructor(id: string)
-  public constructor(id: string, entries: GuestbookEntry[])
-  public constructor(id: string, entries: GuestbookEntry[] = []) {
+  public constructor(id: UniqueId)
+  public constructor(id: UniqueId, entries: GuestbookEntry[])
+  public constructor(id: UniqueId, entries: GuestbookEntry[] = []) {
     super(id)
 
     this.entries = entries

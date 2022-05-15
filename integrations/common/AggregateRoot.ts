@@ -1,11 +1,12 @@
 import { IDomainEvent } from "./IDomainEvent"
 import { IEntity } from "./IEntity"
+import { UniqueId } from "./UniqueId"
 
 export class AggregateRoot implements IEntity {
-  public readonly id: string
+  public readonly id: UniqueId
   private readonly _events: IDomainEvent[] = []
 
-  public constructor(id: string) {
+  public constructor(id: UniqueId) {
     this.id = id
   }
 

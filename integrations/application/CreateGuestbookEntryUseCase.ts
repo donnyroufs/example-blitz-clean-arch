@@ -1,3 +1,5 @@
+import { UniqueId } from "integrations/common/UniqueId"
+
 import { cast, IUseCase } from "../common"
 import {
   Guestbook,
@@ -32,20 +34,11 @@ export class CreateGuestbookEntryUseCase
 
     await this._guestbookRepository.save(guestbook)
 
-    return this.mapToResponse(entry)
-  }
-
-  private mapToResponse(entry: GuestbookEntry) {
-    return new CreateGuestbookEntryResponse(
-      entry.id,
-      entry.email.value,
-      entry.content.value,
-      entry.createdAt
-    )
+    return CreateGuestbookEntryResponse.fromDomain(entry)
   }
 
   private getGuestbook(): Promise<Guestbook> {
-    return cast<Promise<Guestbook>>(this._guestbookRepository.get(GUESTBOOK_ID))
+    return cast<Promise<Guestbook>>(this._guestbookRepository.get(new UniqueId(GUESTBOOK_ID)))
   }
 
   private mapInputToDomain(input: ICreateGuestbookEntryRequest) {

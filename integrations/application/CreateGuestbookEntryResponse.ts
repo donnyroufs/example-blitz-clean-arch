@@ -1,13 +1,18 @@
-export class CreateGuestbookEntryResponse {
-  public readonly id: string
-  public readonly email: string
-  public readonly content: string
-  public readonly createdAt: Date
+import { GuestbookEntry } from "integrations/domain"
+import { GuestbookDto } from "./GuestbookDto"
+import { GuestbookEntryDto } from "./GuestbookEntryDto"
 
-  constructor(id: string, email: string, content: string, createdAt: Date) {
-    this.id = id
-    this.email = email
-    this.content = content
-    this.createdAt = createdAt
+export class CreateGuestbookEntryResponse {
+  public readonly id!: string
+  public readonly email!: string
+  public readonly content!: string
+  public readonly createdAt!: Date
+
+  protected constructor(entry: GuestbookEntryDto) {
+    Object.assign(this, entry)
+  }
+
+  public static fromDomain(entry: GuestbookEntry) {
+    return new CreateGuestbookEntryResponse(GuestbookEntryDto.fromDomain(entry))
   }
 }

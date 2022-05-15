@@ -1,6 +1,6 @@
-import { v4 } from "uuid"
 import db, { Guestbook as PrismaGuestbook, GuestbookEntries as PrismaGuestbookEntries } from "db"
 
+import { UniqueId } from "integrations/common/UniqueId"
 import {
   Guestbook,
   GuestbookEntryAddedEvent,
@@ -9,7 +9,12 @@ import {
   IGuestbookRepository,
 } from "integrations/domain"
 
-export class GuestbookRepository implements IGuestbookRepository {
+import { AbstractRepository } from "./AbstractRepository"
+
+export class GuestbookRepository
+  extends AbstractRepository<Guestbook>
+  implements IGuestbookRepository
+{
   public async save(entity: Guestbook): Promise<Guestbook> {
     const query = entity
       .getEvents()
@@ -21,10 +26,10 @@ export class GuestbookRepository implements IGuestbookRepository {
     return entity
   }
 
-  public async get(entityId: string): Promise<Guestbook | null> {
+  public async get(entityId: UniqueId): Promise<Guestbook | null> {
     const guestbook = await db.guestbook.findFirst({
       where: {
-        id: entityId,
+        id: entityId.value.value,
       },
       include: {
         entries: true,
@@ -36,18 +41,14 @@ export class GuestbookRepository implements IGuestbookRepository {
     return this.mapToDomain(guestbook as any)
   }
 
-  generateId(): string {
-    return v4()
-  }
-
   private mapToDomain(guestbook: PrismaGuestbook & { entries: PrismaGuestbookEntries[] }) {
     return new Guestbook(
-      guestbook.id,
+      new UniqueId(guestbook.id),
       guestbook.entries.map((entry) => ({
         content: new GuestbookEntryContent(entry.content),
         createdAt: entry.createdAt,
         email: new GuestbookEntryEmail(entry.email),
-        id: entry.id,
+        id: new UniqueId(entry.id),
       }))
     )
   }
@@ -55,11 +56,11 @@ export class GuestbookRepository implements IGuestbookRepository {
   private onEntryAddedEvent(evt: GuestbookEntryAddedEvent, entity: Guestbook) {
     return db.guestbookEntries.create({
       data: {
-        id: evt.id,
+        id: evt.id.value,
         content: evt.content.value,
         email: evt.email.value,
         createdAt: evt.createdAt,
-        guestbookId: entity.id,
+        guestbookId: entity.id.value,
       },
     })
   }
