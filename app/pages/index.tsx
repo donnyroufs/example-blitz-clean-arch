@@ -2,9 +2,8 @@ import { Link, BlitzPage, useMutation, Routes } from "blitz"
 import Layout from "app/core/layouts/Layout"
 import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import logout from "app/auth/mutations/logout"
-import { Text, Link as ChakraLink, Spinner, HStack, Center, Button, VStack } from "@chakra-ui/react"
+import { Text, Link as ChakraLink, HStack, Center, Button, VStack } from "@chakra-ui/react"
 import { Title } from "app/core/components/Title"
-import { Suspense } from "react"
 
 /*
  * This file is just for a pleasant getting started page for your new app.
@@ -54,19 +53,17 @@ const Home: BlitzPage = () => {
   const currentUser = useCurrentUser()
 
   return (
-    <Suspense fallback={<Spinner />}>
-      <Center flexFlow="column nowrap" h="100vh">
-        <Title content="CA Example in Blitz" />
-        {currentUser && (
-          <ChakraLink as={Link} href={Routes.GuestbooksPage().pathname}>
-            <Text color="blue.500" cursor="pointer" textDecor="underline">
-              Go to Guestbook
-            </Text>
-          </ChakraLink>
-        )}
-        <UserInfo />
-      </Center>
-    </Suspense>
+    <Center flexFlow="column nowrap" h="100vh">
+      <Title content="CA Example in Blitz" />
+      {currentUser && (
+        <ChakraLink as={Link} href={Routes.GuestbooksPage().pathname}>
+          <Text color="blue.500" cursor="pointer" textDecor="underline">
+            Go to Guestbook
+          </Text>
+        </ChakraLink>
+      )}
+      <UserInfo />
+    </Center>
   )
 }
 
