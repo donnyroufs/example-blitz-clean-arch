@@ -12,17 +12,21 @@ import {
 import { ReactQueryDevtools } from "react-query/devtools"
 import LoginForm from "app/auth/components/LoginForm"
 
+import { ChakraProvider } from "@chakra-ui/react"
+
 export default function App({ Component, pageProps }: AppProps) {
   const getLayout = Component.getLayout || ((page) => page)
 
   return (
-    <ErrorBoundary
-      FallbackComponent={RootErrorFallback}
-      onReset={useQueryErrorResetBoundary().reset}
-    >
-      <ReactQueryDevtools />
-      {getLayout(<Component {...pageProps} />)}
-    </ErrorBoundary>
+    <ChakraProvider resetCSS={true}>
+      <ErrorBoundary
+        FallbackComponent={RootErrorFallback}
+        onReset={useQueryErrorResetBoundary().reset}
+      >
+        <ReactQueryDevtools />
+        {getLayout(<Component {...pageProps} />)}
+      </ErrorBoundary>
+    </ChakraProvider>
   )
 }
 

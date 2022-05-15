@@ -1,7 +1,10 @@
 import { ReactNode, PropsWithoutRef } from "react"
 import { Form as FinalForm, FormProps as FinalFormProps } from "react-final-form"
 import { z } from "zod"
+import { Alert } from "app/core/components/Alert"
+
 import { validateZodSchema } from "blitz"
+import { Button } from "@chakra-ui/react"
 export { FORM_ERROR } from "final-form"
 
 export interface FormProps<S extends z.ZodType<any, any>>
@@ -33,16 +36,12 @@ export function Form<S extends z.ZodType<any, any>>({
           {/* Form fields supplied as children are rendered here */}
           {children}
 
-          {submitError && (
-            <div role="alert" style={{ color: "red" }}>
-              {submitError}
-            </div>
-          )}
+          {submitError && <Alert title="Woops!" description={submitError} status="error" />}
 
           {submitText && (
-            <button type="submit" disabled={submitting}>
+            <Button type="submit" disabled={submitting} isLoading={submitting}>
               {submitText}
-            </button>
+            </Button>
           )}
 
           <style global jsx>{`

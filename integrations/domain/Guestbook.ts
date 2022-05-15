@@ -30,6 +30,4 @@ export class Guestbook extends AggregateRoot {
 
     throw new DuplicateEntryException()
   }
-
-  public static createWithEntries(id: string, entries: GuestbookEntry[]) {}
 }
